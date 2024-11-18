@@ -18,3 +18,6 @@ A simple Node.js application with JWT-based authentication.
 - `POST /api/auth/register` - Register a new user
 - `POST /api/auth/login` - Log in a user
 - `GET /api/auth/me` - Get user info (protected)
+
+## overview postman link
+https://web.postman.co/workspace/87ff17a0-e7e0-4064-87ca-1d9a2f74a0d2/documentation/39168683-49761e6b-6aef-46c4-b03a-0dbd92858266
