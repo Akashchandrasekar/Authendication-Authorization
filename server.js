@@ -15,6 +15,10 @@ app.use(cors());
 // Connect to MongoDB
 connectDB();
 
+app.get("/", (req, res) => {
+    res.status(200).send("Welcome To Our Api");
+  });
+
 // Routes
 app.use('/api/auth', authRoutes);
 
